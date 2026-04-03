@@ -1,0 +1,31 @@
+# Syntax : https://jeka-dev.github.io/jeka/reference/api-project/#jekaprojectdeps
+[version]
+io.micronaut.platform:micronaut-platform:4.10.9@pom
+
+[compile]
+io.micronaut:micronaut-http-server-netty
+io.micronaut.problem:micronaut-problem-json
+io.micronaut.serde:micronaut-serde-jackson
+io.micronaut.validation:micronaut-validation
+jakarta.validation:jakarta.validation-api
+org.jspecify:jspecify
+
+[compile-only]
+
+[runtime]
+ch.qos.logback:logback-classic
+
+[test]
+org.junit.jupiter:junit-jupiter
+io.micronaut.test:micronaut-test-junit5
+io.micronaut:micronaut-http-client
+
+[processor]
+io.micronaut:micronaut-inject-java
+com.google.errorprone:error_prone_core:2.44.0
+com.uber.nullaway:nullaway:0.12.12
+io.micronaut:micronaut-http-validation
+io.micronaut.serde:micronaut-serde-processor
+  !io.micronaut:micronaut-inject
+io.micronaut.validation:micronaut-validation-processor
+  !io.micronaut:micronaut-inject

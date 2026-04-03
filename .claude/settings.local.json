@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/jerome/IdeaProjects/micronaut-demo1-application -name *.md -o -name mkdocs*)"
+    ]
+  }
+}

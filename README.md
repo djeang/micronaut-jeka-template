@@ -21,12 +21,12 @@ Test, then create jar:
 jeka project: test pack 
 ```
 
-Run Jar (create it if missing). Pass jvm props using `-Dxxx=xx` as program argument.
+Run the JAR (build it first if it doesn’t exist). Pass JVM properties as program arguments using `-Dxxx=xx`.
 ```shell
 jeka -p <PROGRAM ARGS...>
 ```
 
-Full build (including static analysis + end-to-end tests)
+Full build, including static analysis and end-to-end tests.
 ```shell
 jeka project: build
 ```

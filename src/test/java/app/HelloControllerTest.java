@@ -1,4 +1,4 @@
-package org.example;
+package app;
 
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.client.HttpClient;

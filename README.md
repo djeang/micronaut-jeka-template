@@ -1,8 +1,8 @@
 # Template for Micronaut Applications built with JeKa
 
-This template proposes a ready-to-run *hello-world* REST application, including tests and *ErrorProne/NullAway* processor setup.
+This template provides a ready-to-run *hello-world* REST application, complete with tests and *ErrorProne/NullAway* processor configuration.
 
-As this setup relies only on basic Jeka features, [Micronaut.aot](https://micronaut-projects.github.io/micronaut-aot/latest/guide/) is not supported.
+Because this setup relies only on basic Jeka features, [Micronaut AOT](https://micronaut-projects.github.io/micronaut-aot/latest/guide/) is not supported.
 
 ## JeKa commands
 

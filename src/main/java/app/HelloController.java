@@ -1,4 +1,4 @@
-package org.example;
+package app;
 
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;

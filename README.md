@@ -1,4 +1,8 @@
-#
+# Template for Micronaut Applications built with JeKa
+
+This template proposes a ready-to-run *hello-world* REST application, including tests and *ErrorProne/NullAway* processor setup.
+
+As this setup relies only on basic Jeka features, [Micronaut.aot](https://micronaut-projects.github.io/micronaut-aot/latest/guide/) is not supported.
 
 ## JeKa commands
 
@@ -12,14 +16,14 @@ Clean, and create jar:
 jeka project: pack --clean
 ```
 
-Run, test, and create jar:
+Test, then create jar:
 ```shell
 jeka project: test pack 
 ```
 
-Run jar:
+Run Jar (create it if missing). Pass jvm props using `-Dxxx=xx` as program argument.
 ```shell
-jeka project: runJar run.programArgs="" run.jvmOptions=""
+jeka -p <PROGRAM ARGS...>
 ```
 
 Synchronize IntelliJ:

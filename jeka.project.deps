@@ -20,11 +20,12 @@ io.micronaut.test:micronaut-test-junit5
 io.micronaut:micronaut-http-client
 
 [processor]
-io.micronaut:micronaut-inject-java
-com.google.errorprone:error_prone_core:2.44.0
-com.uber.nullaway:nullaway:0.12.12
 io.micronaut:micronaut-http-validation
 io.micronaut.serde:micronaut-serde-processor
   !io.micronaut:micronaut-inject
 io.micronaut.validation:micronaut-validation-processor
   !io.micronaut:micronaut-inject
+io.micronaut:micronaut-inject-java
+com.google.errorprone:error_prone_core:2.44.0
+com.uber.nullaway:nullaway:0.12.12
+

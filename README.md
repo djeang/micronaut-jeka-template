@@ -2,6 +2,13 @@
 
 This template provides a ready-to-run *hello-world* REST application, complete with tests and *ErrorProne/NullAway* processor configuration.
 
+The project adopts a simpler layout style than the traditional *Maven* one. 
+If you prefer the traditional style, remove the following lines from `jeka.properties`:
+```properties
+@project.layout.style=SIMPLE
+@project.layout.mixSourcesAndResources=true
+```
+
 Because this setup relies only on basic Jeka features, [Micronaut AOT](https://micronaut-projects.github.io/micronaut-aot/latest/guide/) is not supported.
 
 ## JeKa commands

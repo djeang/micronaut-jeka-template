@@ -26,6 +26,11 @@ Run Jar (create it if missing). Pass jvm props using `-Dxxx=xx` as program argum
 jeka -p <PROGRAM ARGS...>
 ```
 
+Full build (including static analysis + end-to-end tests)
+```shell
+jeka project: build
+```
+
 Synchronize IntelliJ:
 ```shell
 jeka intellij: sync

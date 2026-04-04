@@ -4,10 +4,9 @@ io.micronaut.platform:micronaut-platform:4.10.9@pom
 
 [compile]
 io.micronaut:micronaut-http-server-netty
-io.micronaut.problem:micronaut-problem-json
 io.micronaut.serde:micronaut-serde-jackson
 io.micronaut.validation:micronaut-validation
-jakarta.validation:jakarta.validation-api
+io.micronaut.problem:micronaut-problem-json
 org.jspecify:jspecify
 
 [compile-only]

@@ -33,6 +33,11 @@ Run the JAR (build it first if it doesn’t exist). Pass JVM properties as progr
 jeka -p <PROGRAM ARGS...>
 ```
 
+Clean the output dir, create a jar and run it.
+```shell
+jeka -c -p <PROGRAM ARGS...>
+```
+
 Full build, including static analysis and end-to-end tests.
 ```shell
 jeka project: build

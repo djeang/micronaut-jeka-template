@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><project version="4">
+    <component name="CompilerConfiguration">
+        <annotationProcessing>
+            <profile default="true" enabled="true" name="default">
+                <processorPath useClasspath="false">
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-validation/jars/micronaut-http-validation-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.slf4j/slf4j-api/jars/slf4j-api-2.0.17.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core-processor/jars/micronaut-core-processor-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-inject/jars/micronaut-inject-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/jakarta.inject/jakarta.inject-api/jars/jakarta.inject-api-2.0.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/jakarta.annotation/jakarta.annotation-api/jars/jakarta.annotation-api-2.1.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core/jars/micronaut-core-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-aop/jars/micronaut-aop-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.github.javaparser/javaparser-symbol-solver-core/jars/javaparser-symbol-solver-core-3.27.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.github.javaparser/javaparser-core/jars/javaparser-core-3.27.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.checkerframework/checker-qual/jars/checker-qual-3.49.4.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.sourcegen/micronaut-sourcegen-bytecode-writer/jars/micronaut-sourcegen-bytecode-writer-1.8.2.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.sourcegen/micronaut-sourcegen-model/jars/micronaut-sourcegen-model-1.8.2.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.ow2.asm/asm/jars/asm-9.8.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.ow2.asm/asm-commons/jars/asm-commons-9.8.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.ow2.asm/asm-tree/jars/asm-tree-9.8.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.ow2.asm/asm-util/jars/asm-util-9.8.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.ow2.asm/asm-analysis/jars/asm-analysis-9.8.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core-reactive/jars/micronaut-core-reactive-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.reactivestreams/reactive-streams/jars/reactive-streams-1.0.4.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-server/jars/micronaut-http-server-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http/jars/micronaut-http-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context/jars/micronaut-context-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context-propagation/jars/micronaut-context-propagation-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.projectreactor/reactor-core/jars/reactor-core-3.7.12.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-router/jars/micronaut-router-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-websocket/jars/micronaut-websocket-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-client-core/jars/micronaut-http-client-core-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-json-core/jars/micronaut-json-core-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-discovery-core/jars/micronaut-discovery-core-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.serde/micronaut-serde-processor/jars/micronaut-serde-processor-2.16.2.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.serde/micronaut-serde-api/jars/micronaut-serde-api-2.16.2.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.validation/micronaut-validation-processor/jars/micronaut-validation-processor-4.12.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.validation/micronaut-validation/jars/micronaut-validation-4.12.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/jakarta.validation/jakarta.validation-api/jars/jakarta.validation-api-3.1.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut.reactor/micronaut-reactor/jars/micronaut-reactor-3.9.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-inject-java/jars/micronaut-inject-java-4.10.16.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.errorprone/error_prone_core/jars/error_prone_core-2.44.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.errorprone/error_prone_annotation/jars/error_prone_annotation-2.44.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.guava/guava/bundles/guava-33.5.0-jre.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.errorprone/error_prone_annotations/jars/error_prone_annotations-2.44.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.jspecify/jspecify/jars/jspecify-1.0.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.guava/failureaccess/jars/failureaccess-1.0.3.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.guava/listenablefuture/jars/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.j2objc/j2objc-annotations/jars/j2objc-annotations-3.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.errorprone/error_prone_check_api/jars/error_prone_check_api-2.44.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.github.eisop/dataflow-errorprone/jars/dataflow-errorprone-3.41.0-eisop1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.auto.value/auto-value-annotations/jars/auto-value-annotations-1.9.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/javax.inject/javax.inject/jars/javax.inject-1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/io.github.java-diff-utils/java-diff-utils/jars/java-diff-utils-4.12.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.github.kevinstern/software-and-algorithms/jars/software-and-algorithms-1.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.github.ben-manes.caffeine/caffeine/jars/caffeine-3.0.5.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.googlejavaformat/google-java-format/jars/google-java-format-1.27.0.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.pcollections/pcollections/jars/pcollections-4.0.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.auto/auto-common/jars/auto-common-1.2.2.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.protobuf/protobuf-java/jars/protobuf-java-3.25.5.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.google.auto.service/auto-service-annotations/jars/auto-service-annotations-1.0.1.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/com.uber.nullaway/nullaway/jars/nullaway-0.12.12.jar"/>
+                    <entry name="$JEKA_CACHE_DIR$/repo/org.checkerframework/dataflow-nullaway/jars/dataflow-nullaway-3.49.2.jar"/>
+                </processorPath>
+            </profile>
+        </annotationProcessing>
+    </component>
+    <component name="JavacSettings">
+        <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+            <module name="micronaut-jeka-template" options="-XDcompilePolicy=simple --should-stop=ifError=FLOW &quot;-Xplugin:ErrorProne -Xep:NullAway:ERROR -XepOpt:NullAway:AnnotatedPackages=app&quot;"/>
+        </option>
+    </component>
+</project>

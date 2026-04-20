@@ -16,7 +16,16 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-server-netty/jars/micronaut-http-server-netty-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.servlet/micronaut-http-server-jdk/jars/micronaut-http-server-jdk-5.6.1.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-inject/jars/micronaut-inject-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -31,51 +40,6 @@
                 <SOURCES>
                     <root url="jar://$JEKA_CACHE_DIR$/repo/org.slf4j/slf4j-api/jars/slf4j-api-2.0.17-sources.jar!/"/>
                 </SOURCES>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-server/jars/micronaut-http-server-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http/jars/micronaut-http-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context/jars/micronaut-context-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-inject/jars/micronaut-inject-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core/jars/micronaut-core-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
             </library>
         </orderEntry>
         <orderEntry exported="" scope="COMPILE" type="module-library">
@@ -99,7 +63,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-aop/jars/micronaut-aop-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core/jars/micronaut-core-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -108,7 +72,79 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core-reactive/jars/micronaut-core-reactive-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.servlet/micronaut-servlet-engine/jars/micronaut-servlet-engine-5.6.1.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.servlet/micronaut-servlet-api/jars/micronaut-servlet-api-5.6.1.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/jakarta.servlet/jakarta.servlet-api/jars/jakarta.servlet-api-6.1.0.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.servlet/micronaut-servlet-core/jars/micronaut-servlet-core-5.6.1.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-server/jars/micronaut-http-server-4.10.6.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http/jars/micronaut-http-4.10.6.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context/jars/micronaut-context-4.10.6.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-aop/jars/micronaut-aop-4.10.6.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="COMPILE" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core-reactive/jars/micronaut-core-reactive-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -126,7 +162,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context-propagation/jars/micronaut-context-propagation-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context-propagation/jars/micronaut-context-propagation-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -144,7 +180,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-router/jars/micronaut-router-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-router/jars/micronaut-router-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -153,7 +189,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-netty/jars/micronaut-http-netty-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-jackson-core/jars/micronaut-jackson-core-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -162,7 +198,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-http/jars/netty-codec-http-4.2.9.Final.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-json-core/jars/micronaut-json-core-4.10.6.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -171,7 +207,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-handler/jars/netty-handler-4.2.9.Final.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.19.2.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -180,79 +216,7 @@
         <orderEntry exported="" scope="COMPILE" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-buffer/jars/netty-buffer-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-common/jars/netty-common-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-transport/jars/netty-transport-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-resolver/jars/netty-resolver-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-base/jars/netty-codec-base-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-compression/jars/netty-codec-compression-4.2.9.Final.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-buffer-netty/jars/micronaut-buffer-netty-4.10.16.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-http2/jars/netty-codec-http2-4.2.9.Final.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.19.2.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -262,33 +226,6 @@
             <library>
                 <CLASSES>
                     <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.serde/micronaut-serde-jackson/jars/micronaut-serde-jackson-2.16.2.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-jackson-core/jars/micronaut-jackson-core-4.9.11.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-json-core/jars/micronaut-json-core-4.9.11.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/com.fasterxml.jackson.core/jackson-core/jars/jackson-core-2.19.1.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -368,15 +305,6 @@
                 </SOURCES>
             </library>
         </orderEntry>
-        <orderEntry exported="" scope="COMPILE" type="module-library">
-            <library>
-                <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/com.fasterxml.jackson.core/jackson-annotations/jars/jackson-annotations-2.19.2.jar!/"/>
-                </CLASSES>
-                <JAVADOC/>
-                <SOURCES/>
-            </library>
-        </orderEntry>
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
@@ -445,7 +373,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.test/micronaut-test-junit5/jars/micronaut-test-junit5-4.10.2.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.test/micronaut-test-junit5/jars/micronaut-test-junit5-4.10.3.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -454,7 +382,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.test/micronaut-test-core/jars/micronaut-test-core-4.10.2.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut.test/micronaut-test-core/jars/micronaut-test-core-4.10.3.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -463,7 +391,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-client/jars/micronaut-http-client-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-client/jars/micronaut-http-client-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -472,7 +400,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-client-core/jars/micronaut-http-client-core-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-context/jars/micronaut-context-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -481,7 +409,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-json-core/jars/micronaut-json-core-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-client-core/jars/micronaut-http-client-core-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -490,7 +418,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-discovery-core/jars/micronaut-discovery-core-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http/jars/micronaut-http-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -499,7 +427,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-websocket/jars/micronaut-websocket-4.10.16.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-json-core/jars/micronaut-json-core-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -508,7 +436,7 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-handler-proxy/jars/netty-handler-proxy-4.2.9.Final.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-discovery-core/jars/micronaut-discovery-core-4.10.21.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -517,7 +445,160 @@
         <orderEntry exported="" scope="TEST" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-socks/jars/netty-codec-socks-4.2.9.Final.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-websocket/jars/micronaut-websocket-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-inject/jars/micronaut-inject-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-aop/jars/micronaut-aop-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-http-netty/jars/micronaut-http-netty-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-buffer-netty/jars/micronaut-buffer-netty-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.micronaut/micronaut-core/jars/micronaut-core-4.10.21.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-buffer/jars/netty-buffer-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-common/jars/netty-common-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-http/jars/netty-codec-http-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-handler/jars/netty-handler-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-transport/jars/netty-transport-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-resolver/jars/netty-resolver-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-base/jars/netty-codec-base-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-compression/jars/netty-codec-compression-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-http2/jars/netty-codec-http2-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-handler-proxy/jars/netty-handler-proxy-4.2.12.Final.jar!/"/>
+                </CLASSES>
+                <JAVADOC/>
+                <SOURCES/>
+            </library>
+        </orderEntry>
+        <orderEntry exported="" scope="TEST" type="module-library">
+            <library>
+                <CLASSES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/io.netty/netty-codec-socks/jars/netty-codec-socks-4.2.12.Final.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
                 <SOURCES/>
@@ -537,19 +618,23 @@
         <orderEntry exported="" scope="RUNTIME" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-classic/jars/logback-classic-1.5.29.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-classic/jars/logback-classic-1.5.32.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
-                <SOURCES/>
+                <SOURCES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-classic/jars/logback-classic-1.5.32-sources.jar!/"/>
+                </SOURCES>
             </library>
         </orderEntry>
         <orderEntry exported="" scope="RUNTIME" type="module-library">
             <library>
                 <CLASSES>
-                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-core/jars/logback-core-1.5.29.jar!/"/>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-core/jars/logback-core-1.5.32.jar!/"/>
                 </CLASSES>
                 <JAVADOC/>
-                <SOURCES/>
+                <SOURCES>
+                    <root url="jar://$JEKA_CACHE_DIR$/repo/ch.qos.logback/logback-core/jars/logback-core-1.5.32-sources.jar!/"/>
+                </SOURCES>
             </library>
         </orderEntry>
         <orderEntry exported="" scope="TEST" type="module-library">

@@ -18,7 +18,7 @@ Create jar:
 jeka project: pack
 ```
 
-Clean, and create jar:
+Clean and create a jar:
 ```shell
 jeka project: pack --clean
 ```
@@ -43,6 +43,11 @@ Full build, including static analysis and end-to-end tests.
 jeka project: build
 ```
 
+Creates a local native executable:
+```shell
+jeka native: compile
+```
+
 Synchronize IntelliJ:
 ```shell
 jeka intellij: sync
@@ -55,12 +60,12 @@ Create image:
 jeka docker: build
 ```
 
-Show info about image:
+Show info about the Docker image:
 ```shell
 jeka docker: info
 ```
 
-Create native image:
+Create a native image:
 ```shell
 jeka docker: buildNative
 ```
@@ -70,7 +75,7 @@ Show info about native image:
 jeka docker: infoNative
 ```
 
-Create minimalist Docker image:
+Create a minimalist Docker image:
 ```shell
 jeka docker: buildNative nativeBaseImage=gcr.io/distroless/static-debian12:nonroot native: staticLink=MUSL
 ```

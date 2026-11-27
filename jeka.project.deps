@@ -1,6 +1,6 @@
 # Syntax : https://jeka-dev.github.io/jeka/reference/api-project/#jekaprojectdeps
 [version]
-io.micronaut.platform:micronaut-platform:4.10.12@pom
+io.micronaut.platform:micronaut-platform:4.10.25@pom
 
 [compile]
 io.micronaut.servlet:micronaut-http-server-jdk
@@ -25,6 +25,6 @@ io.micronaut.serde:micronaut-serde-processor
 io.micronaut.validation:micronaut-validation-processor
 io.micronaut:micronaut-inject-java
 
-com.google.errorprone:error_prone_core:2.44.0
-com.uber.nullaway:nullaway:0.12.12
+com.google.errorprone:error_prone_core:2.53.0
+com.uber.nullaway:nullaway:0.14.4
 

@@ -1,6 +1,6 @@
 # Syntax : https://jeka-dev.github.io/jeka/reference/api-project/#jekaprojectdeps
 [version]
-io.micronaut.platform:micronaut-platform:4.10.25@pom
+io.micronaut.platform:micronaut-platform:5.2.8@pom
 
 [compile]
 io.micronaut.servlet:micronaut-http-server-jdk

@@ -92,7 +92,7 @@ jeka docker: infoNative
 
 Create a minimalist Docker image:
 ```shell
-jeka docker: buildNative nativeBaseImage=gcr.io/distroless/static-debian12:nonroot native: staticLink=MUSL
+jeka docker: buildNative nativeBaseImage=gcr.io/distroless/static-debian13:nonroot native: staticLink=MUSL
 ```
 
 ## Links
